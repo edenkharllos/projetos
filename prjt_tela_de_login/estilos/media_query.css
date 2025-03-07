@@ -1,7 +1,7 @@
     @charset "ut-8";
 
  
-   @media screen and (orientation:portrait) and (min-width: 570px ){
+   @media screen and (orientation:portrait) and (min-width: 560px ){
      body{
         background: linear-gradient(to bottom, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro));
        } 
