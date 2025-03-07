@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_query.css">
+    <link rel="stylesheet" href="estilos/paisagem_media_query.css" media="(orientation: landscape)">
+</head>
+
+<body>
+    <main id="container_mae">
+        <section id="secao_de_login">
+            <div id="ifoto">
+
+            </div>
+            <div id="tela_de_login">
+                <h1>
+                    Tela de login
+                </h1>
+                <p id="imsg">
+                    Seja bem-vind(a) novamente. Faça login para acessar a sua conta e configurar o seu ambiente.
+
+                </p>
+                <form action="cadastro.php" method="post">
+
+                    <div id="alinhar_itens">
+                        <p >
+                            <img class="icone_login" src="icons/username.png" alt="icone de login">
+                            <label for="username"></label>
+                            <input type="text" id="username" placeholder="username" minlength="7" maxlength="15"
+                                size="27"><br>
+                        </p>
+                        <p>
+                            <img class="icone_login" src="icons/password.png" alt="icone de senha">
+                                <label for="senha"></label>
+                            <input type="password" id="senha" placeholder="password" size="27">
+                        </p>
+                    </div> <br>
+
+                    <button type="submit">Login <img class="icone_login" src="icons/login.png" alt=""></button>
+
+                    <p id="msg_criar_usuario">
+                        
+                        <a href="">
+                          <img  class="icone_login" src="icons/esquecer_senha.png" alt="criar_usuario"> 
+                            Esqueceu a sua senha?
+                        </a>
+                        <a href=""><br>
+                            <img  class="icone_login" src="icons/criar_usuario.png" alt="">
+                            Criar usuario
+                        </a>
+                       
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

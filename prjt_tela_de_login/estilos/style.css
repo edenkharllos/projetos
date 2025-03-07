@@ -1,0 +1,125 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+ /*
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops – 769px — 1024px.
+Desktops, large screens – 1025px — 1200px.
+Extra large screens, TV – 1201px, and more 
+*/
+
+
+    :root{
+        --cor-cinza-claro:#878787;
+        --cor-cinza-medio: #212121;
+        --cor-cinza-escuro: #030303;
+    }
+    
+    html{
+        height: 100%;
+        margin: 0px;
+    }
+
+    body{
+        background-color: var(--cor-cinza-medio);
+    }
+
+    main{
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        width: 100vw;
+        height: 70vh;
+    }
+
+    section#secao_de_login{
+        background-color: white;
+        border-radius: 25px;
+        box-shadow:1px 2px 15px 2px #030303a4;
+        margin: auto;
+        width: 350px;
+        height: 100vh;
+    }
+
+    div#ifoto{
+       border-top-right-radius: 20px;
+       border-top-left-radius: 20px; 
+        height: 45vh;
+
+       background-image: url(../img/pexels-brunoscramgnon-5007442.jpg); 
+       background-size: cover;
+       background-position: center center;
+       
+    }
+
+    div#tela_de_login{
+        padding: 20px;
+        
+    }
+
+    h1{
+        
+        text-align: center;
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+   
+    img.icone_login{
+        margin-bottom: -5px;
+        width: 23px;
+
+    }
+
+    form > div > p > input{
+        background-color: #212121;
+        color: rgb(255, 255, 255);
+    }
+
+    form > div > p > input:hover{
+        background-color: white;
+        color: #030303;
+    }
+
+    p#imsg{
+        text-indent: 15px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    p#msg_criar_usuario{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.7em;  
+    }
+
+    button{
+        border-radius: 15px;
+        justify-content: center;
+        width: 150px;
+        padding: 5px;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+    }
+    p > a{
+        text-decoration: none;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    p > a:hover{
+        color: blue;
+    }
+    div#alinhar_itens{
+        text-align: center;
+    }
+
+    
+
+
+   
+   

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+
+
+  
+    
+        
+    
+     body{
+        height: 70%;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background-color: var(--cor-cinza-medio);
+        margin: 0px;
+      
+    } 
+
+ 
+
+    main{
+       margin: -0px;
+        justify-content: center;
+        align-items: center;
+        display:flex;
+        width: 100vw;
+        height: 40vh;
+    }
+
+    section#secao_de_login{
+      
+        background-color: white;
+        border-radius: 30px;
+        box-shadow:1px 2px 15px 2px #030303a4;
+        width: 80vw;
+        height: 380px;
+        overflow: hidden;
+    }
+
+    div#ifoto{
+        
+        
+        margin-right: auto;
+        float: right;
+        height: 100%;
+        width: 41%;
+        
+        margin-right: -5px;
+       background-image: url(../img/pexels-brunoscramgnon-5007442.jpg); 
+       background-size:cover;
+       background-repeat: no-repeat;
+       background-position:  center;
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+
+    }
+    h1{
+        margin-top: -10px;
+        font-size: 1.2em;
+        
+        text-align: center;
+     
+    }
+    #imsg{
+        font-size: 0.9em;
+        margin-top: 10px;
+        text-align: center;
+    }
+ 
+    div#tela_de_login{
+        padding: 20px;
+        
+
+
+    }
+   
+    img.icone_login{
+        margin-bottom: -5px;
+        width: 23px;
+
+    }
+
+    form > p > input{
+        background-color: #212121;
+        color: rgb(255, 255, 255);
+    }
+
+    form > p > input:hover{
+        background-color: white;
+        color: #030303;
+    }
+
+    p#imsg{
+        text-indent: 15px;
+        padding-bottom: 20px;
+    }
+
+    p#msg_criar_usuario{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.7em; 
+        padding-bottom: -50px; 
+    }
+
+    button{
+        margin-right: -40px;
+        border-radius: 15px;
+        justify-content: center;
+        width: 150px;
+        padding: 5px;
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+    }
+    p > a{
+        text-decoration: none;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    p > a:hover{
+        color: blue;
+    } 
+
+    input{
+        width: 165px;
+
+    }  
