@@ -16,7 +16,7 @@ Extra large screens, TV – 1201px, and more
 
 
     :root{
-        --cor-cinza-claro:#878787;
+        --cor-cinza-claro:#424242;
         --cor-cinza-medio: #212121;
         --cor-cinza-escuro: #030303;
     }
@@ -114,18 +114,18 @@ Extra large screens, TV – 1201px, and more
     }
     div#alinhar_itens{
         text-align: center;
-        margin-left: -38px;
+        margin-left: -40px;
     }
     #usenrame{
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 5px;
-        width: 170px;
+        width: 190px;
     }
     #senha{
         padding: 10px;
         border-radius: 10px;
-        width: 170px;
+        width: 190px;
     }
     #Icon_login{
         margin-bottom: -2px;

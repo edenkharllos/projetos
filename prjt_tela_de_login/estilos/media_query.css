@@ -1,35 +1,52 @@
     @charset "ut-8";
 
  
-   @media screen and (orientation:portrait) and (min-width: 560px ){
+   @media screen and (orientation:portrait) and (min-width: 580px ){
      body{
         background: linear-gradient(to bottom, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro));
        } 
        section#secao_de_login{
         margin: auto;
-        width: 500px;
+        width: 550px;
+        height: 800px;
        }
-        div#alinhar_itens{
-      text-align: center;
-        }
-        buttom{
+        button{
            display: flex;
            margin: auto; 
            margin-bottom: 50px;
-           
+           width: 225px;
+           font-size: 1.5em;
+           border-radius: 75px;
         }
         button:hover{
             font-size: 1.1em;
             cursor: pointer;
             transition-duration: 0.2s;
-            width: 180px;
-            background-color: #c9c6c6ce;
-             
+            width: 250px;
+            height: 70px;
+            font-size: 1.7em; 
         }
+        #usenrame{
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            width: 450px;
+            height: 70px;
+        }
+        #senha{
+            padding: 10px;
+            border-radius: 10px;
+            width: 450px;
+            height: 70px;
+        }
+        img.icone_login{
+            margin-bottom: -12px;
+             width: 50px;
+          height: 50px;
+     
+         }   
+         
     
-        p#imsg{
-            text-align: center;
-        }
         
    }
 
@@ -41,7 +58,19 @@
             margin: auto;
             width: 700px;
            }
-       
+           #usenrame{
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            width: 580px;
+            height: 70px;
+        }
+        #senha{
+            padding: 10px;
+            border-radius: 10px;
+            width: 580px;
+            height: 70px;
+        }
    }
 
     @media screen and (orientation:portrait) and (min-width: 1024px){
