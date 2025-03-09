@@ -3,7 +3,6 @@ body{
     background: linear-gradient(to left, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro));
    } 
     main{
-       margin: -0px;
         justify-content: center;
         align-items: center;
         display:flex;

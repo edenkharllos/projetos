@@ -5,6 +5,9 @@
      body{
         background: linear-gradient(to bottom, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro));
        } 
+       main{
+        margin-top: -70px;
+    }
        section#secao_de_login{
         margin: auto;
         width: 550px;
@@ -54,6 +57,9 @@
         body{
             background: linear-gradient(to bottom, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro)); 
         }
+        main{
+            margin-top: -75px;
+        }
         section#secao_de_login{
             margin: auto;
             width: 700px;
@@ -72,19 +78,3 @@
             height: 70px;
         }
    }
-
-    @media screen and (orientation:portrait) and (min-width: 1024px){
-       
-    body{
-       
-        background: linear-gradient(to bottom, var(--cor-cinza-claro), var(--cor-cinza-medio), var(--cor-cinza-escuro)) !important; 
-        
-    }
-    section#secao_de_login{
-        margin: auto ;
-        width: 900px;
-
-       }
-
-   } 
-   

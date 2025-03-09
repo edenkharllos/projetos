@@ -32,14 +32,16 @@ Extra large screens, TV – 1201px, and more
         justify-content: center;
         align-items: center;
     }
-    section#secao_de_login{
-
+    main{
+        margin-top: -50px;
+    }
+    section#secao_de_login{ 
         background-color: white;
         border-radius: 25px;
         box-shadow:1px 2px 15px 2px #030303a4;
         margin: auto;
         width: 310px;
-        height: 750px;
+        height: 700px;
     }
 
     div#ifoto{
