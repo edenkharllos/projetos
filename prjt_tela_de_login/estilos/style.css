@@ -114,15 +114,18 @@ Extra large screens, TV – 1201px, and more
     }
     div#alinhar_itens{
         text-align: center;
+        margin-left: -38px;
     }
     #usenrame{
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 5px;
+        width: 140px;
     }
     #senha{
         padding: 10px;
         border-radius: 10px;
+        width: 140px;
     }
     #Icon_login{
         margin-bottom: -2px;
