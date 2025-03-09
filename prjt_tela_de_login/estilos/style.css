@@ -96,7 +96,7 @@ Extra large screens, TV – 1201px, and more
     button{
         border-radius: 15px;
         justify-content: center;
-        width: 150px;
+        width: 120px;
         padding: 3px;
         display: flex;
         margin: auto;
@@ -120,12 +120,12 @@ Extra large screens, TV – 1201px, and more
         padding: 10px;
         border-radius: 10px;
         margin-bottom: 5px;
-        width: 140px;
+        width: 170px;
     }
     #senha{
         padding: 10px;
         border-radius: 10px;
-        width: 140px;
+        width: 170px;
     }
     #Icon_login{
         margin-bottom: -2px;
