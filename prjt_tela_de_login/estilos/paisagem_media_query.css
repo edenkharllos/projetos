@@ -26,6 +26,10 @@
         display:flex;
         width: 100vw;
         height: 40vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     section#secao_de_login{
@@ -38,14 +42,11 @@
         overflow: hidden;
     }
 
-    div#ifoto{
-        
-        
+    div#ifoto{  
         margin-right: auto;
         float: right;
         height: 100%;
         width: 41%;
-        
         margin-right: -5px;
        background-image: url(../img/pexels-brunoscramgnon-5007442.jpg); 
        background-size:cover;
@@ -58,9 +59,7 @@
     h1{
         margin-top: -10px;
         font-size: 1.2em;
-        
         text-align: center;
-     
     }
     #imsg{
         font-size: 0.9em;
@@ -70,9 +69,6 @@
  
     div#tela_de_login{
         padding: 20px;
-        
-
-
     }
    
     img.icone_login{
@@ -84,6 +80,7 @@
     form > p > input{
         background-color: #212121;
         color: rgb(255, 255, 255);
+            border-radius: 10px;
     }
 
     form > p > input:hover{
@@ -121,8 +118,3 @@
     p > a:hover{
         color: blue;
     } 
-
-    input{
-        width: 165px;
-
-    }  
