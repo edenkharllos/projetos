@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de horarios</title>
+    <link rel="stylesheet" href="../estilos/calculadora.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h2 style="color: green; text-align:center;">CALCULADORA DE HORÁRIOS</h2>
+        <h4 style="text-justify: content; text-align: center;">CPD - Frente de Caixa - Loja - Prevenção - Cadastro - Cozinha</h4>
+        <label >
+            <p id="caixa_input">
+                <input type="checkbox" id="compensado" onchange="calcularHorarios()" > Compensado <br>
+                <input type="checkbox" id="horario8h36" onchange="calcularHorarios()"> Carga horaria 08:36h <br>
+                <input type="checkbox" id="horariodom" onchange="calcularHorarios()"> Carga horaria domingo
+            </p>
+        </label>
+    
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Horário de Entrada</th>
+                        <th>Horário de Almoço/<br>Jantar (Mín)</th>
+                        <th>Horário de Almoço/</br> Jantar (max)</th>
+                        <th>Horário de Saída</th><br>
+                        <th>Horário de Retorno</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="time" id="entrada" onchange="calcularHorarios()"></td>
+                        <td     id="almocoMin" class="diminur_largura_td" ></td>
+                        <td id="almocoMax"></td>
+                        <td id="saida"></td>
+                        <td id="retorno"></td>
+                    </tr>
+                    <tr>
+    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<script src="/scriptsCalculadoras/calculadora_de_horarios.js"></script>
+</body>
+</html>
