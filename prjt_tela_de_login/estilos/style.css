@@ -16,7 +16,7 @@ Extra large screens, TV – 1201px, and more
 
 
     :root{
-        --cor-cinza-claro:#424242;
+        --cor-cinza-claro:#303030;
         --cor-cinza-medio: #212121;
         --cor-cinza-escuro: #030303;
     }
@@ -33,7 +33,11 @@ Extra large screens, TV – 1201px, and more
         align-items: center;
     }
     main{
-        margin-top: -50px;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     section#secao_de_login{ 
         background-color: white;
@@ -42,9 +46,12 @@ Extra large screens, TV – 1201px, and more
         margin: auto;
         width: 310px;
         height: 700px;
+        transition: width 0.3s, heigth 0.3s;
+        transition-timing-function: ease;
     }
 
     div#ifoto{
+        display: block;
        border-top-right-radius: 20px;
        border-top-left-radius: 20px; 
         height: 30vh;
