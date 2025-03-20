@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+#Cacluladora{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e08f86;
+    width: 240px;
+    border: 3px solid rgb(128, 27, 27);
+    border-radius: 10px;
+}
+
+#Div_Nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#Div_Display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(116, 31, 31);
+    width: 214px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.Resultado_Display{
+    padding: 10px;
+    height: 40px;
+    width: 210px;
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    text-align: right;
+}
+#Div_Teclas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    flex-wrap: wrap;
+}
+.Bnt{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    border: 3px solid #888;
+    border-radius: 10px;
+    font-weight: 50px;
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+    margin: 2px;
+}
+.Teclas_de_Operacao{
+    background-color: rgb(167, 33, 24) !important;
+    border: 3px solid rgb(92, 9, 9) !important;
+}
+.Bnt:hover{
+    background-color: #d1d0d0;
+    transition: 0.1s
+}
+.Teclas_de_Operacao:hover{
+    background-color: rgb(201, 107, 100) !important;
+}
