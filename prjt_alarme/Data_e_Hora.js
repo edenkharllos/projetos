@@ -29,7 +29,7 @@ const Alarme_Convertido_Ativado = () => {
     const Alarme_convertido = `Hora Alarme = ${hora}:${minutos}:${segundos}`
     return Res_Alarme.innerHTML = Alarme_convertido
 }
-const Parar_Alarme = () =>{
+const Parar_Alarme = () => {
     Alarme_Ativado = false
     Alarme_Tocando = false
     Res_Alarme.innerHTML = "Hora Alarme:"
@@ -43,13 +43,16 @@ const Formatar_Exibir_Relogio = () => {
     let hora = Data.getHours()
     let minutos = Data.getMinutes()
     let segundos = Data.getSeconds()
+
     hora = (hora < 10 ? "0" + hora : hora)
     minutos = (minutos < 10 ? "0" + minutos : minutos)
     segundos = (segundos < 10 ? "0" + segundos : segundos)
     const Horas_res = `${hora}:${minutos}:${segundos}`
+
     Res_Relogio.innerHTML = Horas_res
-    if(Alarme_Ativado && !Alarme_Tocando){
-        if(Data.getTime()>= Ts_Alarme){
+    
+    if (Alarme_Ativado && !Alarme_Tocando) {
+        if (Data.getTime() >= Ts_Alarme) {
             Alarme_Tocando = true
             Som_Alarme.play()
             Container.classList.add("Alarme_Disparado")
