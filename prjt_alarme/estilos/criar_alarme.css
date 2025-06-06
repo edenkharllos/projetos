@@ -1,0 +1,164 @@
+@charset "UT-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+
+:root {
+    --cor-azul-claro: #24aae3;
+    --cor-azul-medio: #2f3646;
+    --cor-azul-escuro: #1d222e;
+    --cor-lilas: #2e0a2e;
+}
+
+body {
+    background-color: var(--cor-azul-escuro);
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    color: var(--cor-azul-claro);
+    text-align: center;
+}
+
+.Icon_Nav{
+    width: 30px;
+    height: 30px;
+}
+.Container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: var(--cor-azul-medio);
+    width: 320px;
+    height: 90%;
+    border-radius: 25px;
+    box-shadow: 1px 5px 10px 12px rgba(0, 0, 0, 0.192);
+    border:2px solid var(--cor-azul-escuro);
+}
+
+
+#time {
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    font-size: 1.8em;
+    border-style: none;
+    background-color: rgb(235, 232, 232);
+    box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.151);
+}
+
+.Som_Alarme {
+    color: #24aae3;
+    margin: auto;
+    background-color: #373e53;
+    height: 65px;
+    border-radius: 20px;
+    width: 300px;
+    border: 1px solid var(--cor-azul-escuro);
+    box-shadow: 1px 3px 5px 5px rgba(0, 0, 0, 0.027);
+    cursor: pointer;
+}
+
+.Calendario {
+    border: 1px solid var(--cor-azul-escuro);
+    color: var(--cor-azul-claro);
+    background-color: #373e53;
+    text-align: center;
+    margin: auto;
+    margin-bottom:-80px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    border-radius: 20px;
+    width: 300px;
+    height: 65px;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.Calendario:hover {
+    background-color: #5c688d;
+}
+
+.Som_Padrao {
+    margin-top: 80px;
+}
+
+.Som_Alarme:hover {
+    background-color: #5c688d;
+}
+
+.Alinhar_Inputs {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Enviar_Som {
+    margin-top: -5px;
+    font-size: 1.4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#Aud_Upload {
+    border-radius: 25px;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    text-align: right !important;
+}
+
+.Bnt_Definir_Alarme{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    box-shadow: 1px 4px 10px 5px rgba(0, 0, 0, 0.082);
+    border-style: none;
+    background-color:#373e53 ;
+    color: var(--cor-azul-claro);
+    font-size: 1.5em;  
+    border: 1px solid var(--cor-azul-escuro);
+    cursor: pointer;
+}
+.Bnt_Definir_Alarme:hover{
+    background-color: #5c688d;
+}
+/*
+Estilização do botao enviar
+*/
+input[type="file"]{
+    display: none;
+}
+label[for="Aud_Upload"]{
+    cursor: pointer;
+    display:inline-block !important;
+    padding: 10px 20px;
+}
+#File_Name{
+    display: block;
+    color: #24aae3;
+    font-size: 0.8em !important;
+}
+#I_navegar{
+    width: 35px;
+    height: 35px;
+}

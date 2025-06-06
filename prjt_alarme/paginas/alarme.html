@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/criar_alarme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="../estilos/area_alarme_media_query.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <title>Criar Alarme</title>
+</head>
+<body>
+    <div id="Container" class="Container">
+         <a href="../index.html" target="_blank"><img src="../img/nav.svg" alt="" class="Icon_Nav"></a>
+        <h1>ALARME</h1>
+         <br><br><br><br><br>
+        
+        <div id="Div_Relogio" class="Div_Relogio">
+            <input type="time" id="time">
+            <div id="Area_Calendario_e_som" class="Area_Calendario_e_som">
+
+                <p id="I_Calendario" class="I_Calendario " >
+                    <label for="Calendario"></label>
+                    <input type="date" id="Calendario" class="Calendario">
+                </p><br>
+                <p class="Som_Alarme Som_Padrao">
+                    <label for="Som_Alarme"  class="Alinhar_Inputs ">Som Padão</label>
+                    <input type="radio" id="Som_Alarme" name="N_Alarme"  class="Alinhar_Inputs Som_Alarme" checked>
+                </p><br>
+                <p class="Som_Alarme">
+                    <label for="Som_Alarme2"class="Alinhar_Inputs"> Som Ninar</label>
+                    <input type="radio" id="Som_Alarme2" name="N_Alarme" class="Alinhar_Inputs">
+                </p><br>
+                <p class="Som_Alarme Enviar_Som">
+                    <label class="Alinhar_Inputs Enviar_Som" for="Aud_Upload" >Enviar toque</label><br>
+                    <input type="file" id="Aud_Upload" class="Alinhar_Inputs Enviar_Som Inp_File">
+                    <span id="File_Name">Nenhum arquivo selecionado</span>
+                </p>
+            </div>
+            <div id="Area_Bnt" class="Area_Bnt">
+                <button id="Bnt_Definir_Alarme" class="Bnt_Definir_Alarme">Definir Alarme</button>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/Alarme.js" type="module"></script>
+</body>
+</html>

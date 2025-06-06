@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarme</title>
+    <link rel="icon" href="img/clock.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="./estilos/alarmes_index_media_query.css">
+
+</head>
+
+<body>
+    <div id="Container" class="Container">
+        <div id="Div_Menu" class="Div_Menu Icon_Menu">
+            <a href="#"> <img src="img/parar.svg" alt="Parar" id="Bnt_Parar" class="Parar"> </a>
+
+            <a href="#"> <img src="img/ativar.svg" alt="ativar alarme" id="Btn_Ativar" class="Ativar"></a>
+
+            <a href="./paginas/alarme.html" target="_blank"> <img src="img/adicionar.svg" alt="img-add" id="Add_Alarme"
+                    class="Add_Alarme"></a>
+        </div>
+        <div id="Relogio" class="Relogio">
+            <br><br>
+            <p id="Res_Relogio" class="Res_Relogio">21:30</p>
+        </div>
+        <br><br>
+        <div class="Area_Alarmes" id="Area_Alarmes">
+
+        </div>
+    </div>
+    <script src="./scripts/Exbibir_Timer.js"></script>
+    <script src="./scripts/Criar_Alarme.js" type="module"></script>
+</body>
+
+</html>

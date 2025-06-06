@@ -1,0 +1,33 @@
+@charset "utf-8";
+@media (min-width:700px) {
+
+    .Container {
+        width: 500px;
+
+    }
+
+    #time {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Som_Alarme {
+        width: 450px;
+        height: 70px;
+    }
+
+    .Calendario {
+        width: 450px;
+        height: 70px;
+    }
+
+    .Bnt_Definir_Alarme {
+        width: 250px;
+        height: 70px;
+    }
+
+    .Icon_Nav {
+        width: 40px;
+        height: 40px;
+    }   
+}
